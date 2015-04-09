@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Big Fishing</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<?php include_once("analyticstracking.php") ?>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+	<script src="tablesort/jquery.tablesorter.js"></script>
+</head>
+<body>
+<div class="navigation" align="center">
+		<span><a href="index.html" target="_parent">Unspoiled Nodes</a></span>
+		<span><a href="fishing.html" target="_parent">Fishing</a></span>
+		<span><a href="Planned.html" target="_parent">Planned Features</a></span>
+		<span><a href="changelog.html" target="_parent">Change Log</a></span>
+	</div>
+	<div>
+		<table class="clock" align="center" >
+			<tr>
+				<td> Current Eorzea Time: </td>
+				<td><div id='e-time'></div></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="h1">
+
+		<label for=fshlvl>Fishing Level:</label>
+		<output for=fshlvl id=fshgatherlvl>290</output>
+
+		<p>
+		<input class="fshbar" type=range min=250 max=400 value=290 id=fshlvl step=1 oninput="outputUpdate(value)">
+		</p>
+	</div>
+	<div>
+			<table align="center">
+				<tr>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Any" checked><span>Any Weather</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Blizzard" checked><span>Blizzard</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Clear" checked><span>Clear</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Cloudy" checked><span>Cloudy</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Duststorm" checked><span>Duststorm</span></label></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fair" checked><span>Fair</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fog" checked><span>Fog</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gale" checked><span>Gale</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gloom" checked><span>Gloom</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Heatwave" checked><span>Heatwave</span></label></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Lightning" checked><span>Lightning</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Overcast" checked><span>Overcast</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Rain" checked><span>Rain</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Thunderstorm" checked><span>Thunderstorm</span></label></td>
+					<td></td>
+					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Windy" checked><span>Windy</span></label></td><td></td>
+
+				</tr>
+			</table>
+			<table align="center">
+					<td class="nodetier weatherbutton" align="center"><label><input type="checkbox" id="Mooch" checked><span>Show/Hide Mooch</span></label></td>
+				</tr>
+				<td></td>
+			</table>
+
+
+			<div id="fishinglist">LOADING</div>
+
+	<div class="version">Version 1.5 - April 2, 2015</div>
+	<div style="padding-top: 5%;"><img class="roundedimg cntrimg" src="Images/happysheep.png" height="250" width="400"></div>
+	<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
+<footer>
+</footer>
+<script type="text/javascript" src="functions.js"></script>
+<script id="fishingTable" type="text/x-handlebars-template">
+	<table id="fishinglist" class="maintable tablesorter fishingsort">
+		<thead>
+			<tr bgcolor="#D2D2D2">
+				<th width="400" height="25px" scope="col">Fish Name</th>
+				<th width="400" scope="col">Spawn Time</th>
+				<th width="600" scope="col">Zone</th>
+				<th width="400" scope="col" class="sorttable_nosort">Coordinates</th>
+				<th width="400" scope="col">Weather</th>
+				<th width="400" scope="col">Bait</th>
+				<th width="404" scope="col">Mooch</th>
+				<th width="404" scope="col">Min Gathering</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each fishes}}
+				<tr class="F fnodes">
+					<td class="{{#if description}}fishlink{{/if}}">{{fishName}}
+						<div class="flink" style="display: none";>{{description}}</div>
+					</td>
+					<td>{{spawnTime}}</td>
+					<td>{{zone}}</td>
+					<td>{{coordinates}}</td>
+					<td>{{weather}}</td>
+					<td>{{bait}}</td>
+					<td>{{mooch}}</td>
+					<td>{{minGathering}}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</script>
+</body>
+</html>
