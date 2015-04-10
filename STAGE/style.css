@@ -243,8 +243,8 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 .btt{
 		margin: 2%;
 }
-/*Style For SlideBar On Fishing Page */
 
+/*Style For SlideBar On Fishing Page */
 .fshbar {
   	-webkit-appearance: none;
   	margin: 18px 0;
@@ -269,7 +269,7 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 .fshbar::-webkit-slider-thumb {
 	  height: 32px;
 	  width: 32px;
-	  background-image:url('http://duolc.dyndns-server.com:8080/STAGE/Images/Fisher_Icon_8.png');
+	  background-image:url('/Images/Fisher_Icon_8.png');
 	  cursor: pointer;
 	  -webkit-appearance: none;
 	  margin-top: -14px;
@@ -368,7 +368,7 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 .minbar::-webkit-slider-thumb {
 	  height: 32px;
 	  width: 32px;
-	  background-image:url('http://duolc.dyndns-server.com:8080/STAGE/Images/Miner_Icon_8.png');
+	  background-image:url('/Images/Miner_Icon_8.png');
 	  cursor: pointer;
 	  -webkit-appearance: none;
   	margin-top: -14px;
@@ -466,7 +466,7 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 .botbar::-webkit-slider-thumb {
 	  height: 32px;
 	  width: 32px;
-	  background-image:url('http://duolc.dyndns-server.com:8080/STAGE/Images/Botanist_Icon_8.png');
+	  background-image:url('/Images/Botanist_Icon_8.png');
 	  cursor: pointer;
 	  -webkit-appearance: none;
 	  margin-top: -14px;

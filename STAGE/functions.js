@@ -95,14 +95,13 @@ function outputBotUpdate(botlvl) {
 var $BotanyRows = $('#minebottable tbody tr');
 $('#botlvl').on('change', function(event) {
 	var curVal = this.value;
-	$('.B').hide("slow");
+	$('.B').fadeOut("slow");
 	$('.B').filter(function() {
 		return $('td:nth-child(7)', this).last().html() <= curVal;
 	}).show("slow");
 });
 
 /*Fishing*/
-
 function outputUpdate(fshlvl) {
   document.querySelector('#fshgatherlvl').value = fshlvl;
 }
@@ -110,28 +109,23 @@ function outputUpdate(fshlvl) {
 var $fishingRows = $('#fishinglist tbody tr');
 $('#fshlvl').on('change', function(event) {
 	var curVal = this.value;
-	$('.F').hide("slow");
+	$('.F').fadeOut("slow");
 	$('.F').filter(function() {
 		return $('td', this).last().html() <= curVal;
 	}).show("slow");
 });
 
-
 /*Show or Hide Mining*/
-$(document).ready(function () {
     $('#Mining').change(function () {
         if (!this.checked) $('.M, .mslide').fadeOut('slow');
         else $('.M, .mslide').fadeIn('slow');
     });
-});
-
+    
 /*Show or Hide Botany*/
-$(document).ready(function () {
     $('#Botany').change(function () {
         if (!this.checked) $('.B, .bslide').fadeOut('slow');
         else $('.B, .bslide').fadeIn('slow');
     });
-});
 
  /*Show or Hide Mooching*/
 /* $(document).ready(function () {
