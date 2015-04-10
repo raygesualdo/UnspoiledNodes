@@ -540,7 +540,7 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
   	background: #367ebd;
 }
 
-/*Sorting Style*/
+/*Sortable table Header Style*/
 table.tablesorter thead tr .header {
 		background-image: url(Images/bg.gif);
 		background-repeat: no-repeat;
