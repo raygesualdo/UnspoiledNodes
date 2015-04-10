@@ -1,10 +1,11 @@
 // Eorzea Time
 // Thanks for figuring this out http://jsfiddle.net/jryansc/6r85j/
-	var E_TIME = 20.5714285714;
+var E_TIME = 20.5714285714;
 var global = {
-    utcTime: null,
-    eorzeaTime: null
+  utcTime: null,
+  eorzeaTime: null
 };
+
 window.setInterval(updateClock, Math.floor(1000 * 60 /  E_TIME));
 
 function updateClock() {
@@ -28,6 +29,7 @@ function showTime() {
     minutes = padLeft(minutes);
     eTime.innerHTML = hours + ":" + minutes + " " + ampm;
 }
+
 function padLeft(val){
     var str = "" + val;
     var pad = "00";
@@ -36,8 +38,7 @@ function padLeft(val){
 
 updateClock();
 
-
-/*Build out Fishing Table*/
+/*Build out Fishing Table from fishing.json*/
 $.getJSON('fishing.json', function(data) {
 	var templateData = {fishes: data};
 	var templateHtml = $('#fishingTable').html();
@@ -45,31 +46,30 @@ $.getJSON('fishing.json', function(data) {
 	var compiledTemplate = template(templateData);
 	$('#fishinglist').replaceWith(compiledTemplate);
 	// $('#fishing-container').html(compiledTemplate);
-	// Now sort new table
-    $("#fishinglist").tablesorter({
+
+	/*Now add sortable table headers*/
+	/*Needs to run in this script or will not read table to make sortable*/
+	$("#fishinglist")
+	.tablesorter({
 		headers: {
 			3: {sorter:false}
 		}
-		
-	}); 
-	/*Fishing-Hole Mouseover Event*/
 
-$(".fishlink").mouseout(function() {
-    $(this).children(".flink").hide();
-}).mouseover(function() {
-    $(this).children(".flink").show();
+	});
+
+	/*Initiate Mouseover Events for Table*/
+	/*Needs to run in this script or will not start hidden*/
+	$(".mouseover")
+			.mouseout(function() {
+	    $(this).children(".popout").hide();
+	})
+			.mouseover(function() {
+	    $(this).children(".popout").show();
+	});
+
 });
 
- });
-
-
-
-/*
-Modified for Use by UnspoiledNodes
-V-1.0
-*/
-
-/* Slide Bar and Filtering */
+/* Slide Bar and Filtering for Tables */
 
 /*Mining*/
 
@@ -99,7 +99,7 @@ $('#botlvl').on('change', function(event) {
 	$('.B').filter(function() {
 		return $('td:nth-child(7)', this).last().html() <= curVal;
 	}).show("slow");
-}); 
+});
 
 /*Fishing*/
 
@@ -219,5 +219,3 @@ $('#Windy').change(function () {
   if (!this.checked) $('.Windy').fadeOut('slow');
     else $('.Windy').fadeIn('slow');
 });
-
-
