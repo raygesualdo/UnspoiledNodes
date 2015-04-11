@@ -25,63 +25,61 @@
 		</table>
 	</div>
 
-	<div class="h1">
 
-		<label for=fshlvl>Fishing Level:</label>
-		<output for=fshlvl id=fshgatherlvl>290</output>
+	<table align="center">
+		<tr>
+			<td class="nodetier weatherbutton" style="width:225px;" ><label><input type="checkbox" id="Mooch" checked><span>Show/Hide Mooch</span></label></td>
+			<td>
+					<div class="h1" style="width:225px;">
+						<label for=fshlvl>Fishing Level:</label>
+						<output for=fshlvl id=fshgatherlvl>290</output>
+					</div>
+			</td>
+			<td class="nodetier weatherbutton" style="width:225px;"><label><input type="checkbox" id="WeatherTable" unchecked><span>Show/Hide Weather Selectors</span></label></td>
+		</tr>
+			<td colspan="3" align="center"><input class="fshbar" type=range min=250 max=400 value=290 id=fshlvl step=1 oninput="outputUpdate(value)"></td>
+		</tr>
+	</table>
 
-		<p>
-		<input class="fshbar" type=range min=250 max=400 value=290 id=fshlvl step=1 oninput="outputUpdate(value)">
-		</p>
-	</div>
-	<div>
-			<table align="center">
-				<tr>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Any" checked><span>Any Weather</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Blizzard" checked><span>Blizzard</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Clear" checked><span>Clear</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Cloudy" checked><span>Cloudy</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Duststorm" checked><span>Duststorm</span></label></td>
-				</tr>
-				<tr></tr>
-				<tr>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fair" checked><span>Fair</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fog" checked><span>Fog</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gale" checked><span>Gale</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gloom" checked><span>Gloom</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Heatwave" checked><span>Heatwave</span></label></td>
-				</tr>
-				<tr></tr>
-				<tr>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Lightning" checked><span>Lightning</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Overcast" checked><span>Overcast</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Rain" checked><span>Rain</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Thunderstorm" checked><span>Thunderstorm</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Windy" checked><span>Windy</span></label></td><td></td>
+	<table class="weatherselector" align="center" style="display:none;">
+		<tr>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Any" checked><span>Any Weather</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Blizzard" checked><span>Blizzard</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Clear" checked><span>Clear</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Cloudy" checked><span>Cloudy</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Duststorm" checked><span>Duststorm</span></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fair" checked><span>Fair</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fog" checked><span>Fog</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gale" checked><span>Gale</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gloom" checked><span>Gloom</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Heatwave" checked><span>Heatwave</span></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Lightning" checked><span>Lightning</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Overcast" checked><span>Overcast</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Rain" checked><span>Rain</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Thunderstorm" checked><span>Thunderstorm</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Windy" checked><span>Windy</span></label></td><td></td>
 
-				</tr>
-			</table>
-			<table align="center">
-					<td class="nodetier weatherbutton" align="center"><label><input type="checkbox" id="Mooch" checked><span>Show/Hide Mooch</span></label></td>
-				</tr>
-				<td></td>
-			</table>
-
-
-			<div id="fishinglist">LOADING</div>
-
+		</tr>
+	</table>
+	<div id="fishinglist" align:"center">LOADING</div>
 	<div class="version">Version 1.5 - April 2, 2015</div>
 	<div style="padding-top: 5%;"><img class="roundedimg cntrimg" src="Images/happysheep.png" height="250" width="400"></div>
 	<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>

@@ -54,19 +54,17 @@ $.getJSON('fishing.json', function(data) {
 		headers: {
 			3: {sorter:false}
 		}
-
 	});
 
 	/*Initiate Mouseover Events for Table*/
 	/*Needs to run in this script or will not start hidden*/
-	$(".mouseover")
+	$(".fishlink")
 			.mouseout(function() {
-	    $(this).children(".popout").hide();
+	    $(this).children(".flink").hide();
 	})
 			.mouseover(function() {
-	    $(this).children(".popout").show();
+	    $(this).children(".flink").show();
 	});
-
 });
 
 /* Slide Bar and Filtering for Tables */
@@ -120,7 +118,7 @@ $('#fshlvl').on('change', function(event) {
         if (!this.checked) $('.M, .mslide').fadeOut('slow');
         else $('.M, .mslide').fadeIn('slow');
     });
-    
+
 /*Show or Hide Botany*/
     $('#Botany').change(function () {
         if (!this.checked) $('.B, .bslide').fadeOut('slow');
@@ -138,6 +136,11 @@ $('#fshlvl').on('change', function(event) {
 
 
 /* The Following Hides or Shows the Nodes based on Weather*/
+
+$('#WeatherTable').change(function () {
+  if (!this.checked) $('.weatherselector').fadeOut('slow');
+    else $('.weatherselector').fadeIn('slow');
+  });
 
 $('#Any').change(function () {
   if (!this.checked) $('.Any').fadeOut('slow');
