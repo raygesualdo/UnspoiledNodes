@@ -562,3 +562,15 @@ table.tablesorter thead tr .headerSortDown {
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
 		background-color: #8dbdd8;
 }
+
+a.moreinfo {
+		position: relative;
+		display: inline;
+		cursor: alias;
+		z-index: 10;
+}
+
+a.nolink {
+		text-decoration: none;
+		color: #D7CCC8;
+	}

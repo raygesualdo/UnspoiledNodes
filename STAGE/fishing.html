@@ -103,9 +103,7 @@
 		<tbody>
 			{{#each fishes}}
 				<tr class="F fnodes">
-					<td class="{{#if description}}fishlink{{/if}}">{{fishName}}
-						<div class="flink" style="display: none";>{{description}}</div>
-					</td>
+					<td> <a href="#" class="nolink {{#if description}}fishlink tooltip animate{{/if}}" >{{fishName}} </a></td>
 					<td>{{spawnTime}}</td>
 					<td>{{zone}}</td>
 					<td>{{coordinates}}</td>

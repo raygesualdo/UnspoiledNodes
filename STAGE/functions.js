@@ -58,13 +58,13 @@ $.getJSON('fishing.json', function(data) {
 
 	/*Initiate Mouseover Events for Table*/
 	/*Needs to run in this script or will not start hidden*/
-	$(".fishlink")
-			.mouseout(function() {
-	    $(this).children(".flink").hide();
-	})
-			.mouseover(function() {
-	    $(this).children(".flink").show();
-	});
+	// $(".fishlink")
+	// 		.mouseout(function() {
+	//     $(this).children(".flink").hide();
+	// })
+	// 		.mouseover(function() {
+	//     $(this).children(".flink").show();
+	// });
 });
 
 /* Slide Bar and Filtering for Tables */
