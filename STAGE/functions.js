@@ -67,6 +67,24 @@ $.getJSON('fishing.json', function(data) {
 	// });
 });
 
+/*Build out UnspoiledNodes Table from fishing.json*/
+$.getJSON('botmin.json', function(data) {
+	var templateData = {unspoilednodes: data};
+	var templateHtml = $('#NodesList').html();
+	var template = Handlebars.compile(templateHtml);
+	var compiledTemplate = template(templateData);
+	$('#unspoilednodeslist').replaceWith(compiledTemplate);
+	// $('#fishing-container').html(compiledTemplate);
+
+	/*Now add sortable table headers*/
+	/*Needs to run in this script or will not read table to make sortable*/
+	$("#unspoilednodeslist")
+	.tablesorter({
+		headers: {
+			3: {sorter:false}
+		}
+	});
+});
 /* Slide Bar and Filtering for Tables */
 
 /*Mining*/
@@ -126,13 +144,10 @@ $('#fshlvl').on('change', function(event) {
     });
 
  /*Show or Hide Mooching*/
-/* $(document).ready(function () {
     $('#Mooch').change(function () {
         if (!this.checked) $('.MCH').fadeOut('slow');
         else $('.MCH').fadeIn('slow');
     });
-});
- */
 
 
 /* The Following Hides or Shows the Nodes based on Weather*/
