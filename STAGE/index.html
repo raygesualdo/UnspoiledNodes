@@ -6,12 +6,8 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
-
 	</head>
-
 	<body id="visible">
-
-
 		<div class="navigation" align="center">
 			<span><a href="index.html" target="_parent">Unspoiled Nodes</a></span>
 			<span><a href="fishing.html" target="_parent">Fishing</a></span>
@@ -58,43 +54,38 @@
 		<div id="unspoilednodeslist" stype="align:center">LOADING</div>
 		<div class="version">Version 1.5 - April 2, 2015</div>
 		<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
-
-	</body>
 	<footer>
-			<script type="text/javascript" src="functions.js"></script>
-			<script id="NodesList" type="text/x-handlebars-template">
-
-			<table id="minebottable" class="maintable sortable">
-
-				<thead bgcolor="#D2D2D2">
-				  <th width="97" height="25px" scope="col">Type</th>
-				  <th width="242" scope="col">Item</th>
-				  <th width="84" scope="col" class="sorttable_nosort">Slot</th>
-				  <th width="220" scope="col">Spawn Time</th>
-				  <th width="326" scope="col">Zone</th>
-				  <th width="300" scope="col">Region</th>
-					<th width="300" scope="col">Closest Aetheryte</th>
-				  <th width="264" scope="col">Min Gathering</th>
-				  <th width="404" scope="col">Min Perception for HQ</th>
-				</thead>
-				<tbody>
-					{{#each unspoilednodes}}
-						<tr>
-							<td>{{Type}}</td>
-							<td>{{Item}}</td>
-							<td>{{Slot}}</td>
-							<td>{{Spawn Time}}</td>
-							<td>{{Zone}}</td>
-							<td>{{Region}}</td>
-							<td>{{Closest Aetheryte}}</td>
-							<td>{{Min Gathering}}</td>
-							<td>{{Min Perception for HQ}}</td>
-						</tr>
-					{{/each}}
-				</tbody>
-		<div class="version">Version 1.5 - April 2, 2015</div>
-		<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
-
-		<script type="text/javascript" src="functions.js"></script>
 	</footer>
+	<script type="text/javascript" src="functions.js"></script>
+	<script id="nodesTable" type="text/x-handlebars-template">
+	<table id="minebottable" class="maintable sortable">
+		<thead bgcolor="#D2D2D2">
+		  <th width="97" height="25px" scope="col">Type</th>
+		  <th width="242" scope="col">Item</th>
+		  <th width="84" scope="col">Slot</th>
+		  <th width="220" scope="col">Spawn Time</th>
+		  <th width="326" scope="col">Zone</th>
+		  <th width="300" scope="col">Region</th>
+			<th width="300" scope="col">Closest Aetheryte</th>
+		  <th width="264" scope="col">Min Gathering</th>
+		  <th width="404" scope="col">Min Perception for HQ</th>
+		</thead>
+		<tbody>
+			{{#each nodes}}
+				<tr>
+					<td>{{Type}}</td>
+					<td>{{Item}}</td>
+					<td>{{Slot}}</td>
+					<td>{{SpawnTime}}</td>
+					<td>{{Zone}}</td>
+					<td>{{Region}}</td>
+					<td>{{ClosestAetheryte}}</td>
+					<td>{{MinGathering}}</td>
+					<td>{{MinPerceptionforHQ}}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</script>
+</body>
 </html>

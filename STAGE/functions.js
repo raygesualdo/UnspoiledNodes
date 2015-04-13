@@ -39,42 +39,42 @@ function padLeft(val){
 updateClock();
 
 /*Build out Fishing Table from fishing.json*/
-$.getJSON('fishing.json', function(data) {
-	var templateData = {fishes: data};
-	var templateHtml = $('#fishingTable').html();
-	var template = Handlebars.compile(templateHtml);
-	var compiledTemplate = template(templateData);
-	$('#fishinglist').replaceWith(compiledTemplate);
-	// $('#fishing-container').html(compiledTemplate);
+ $.getJSON('fishing.json', function(data) {
+ 	var templateData = {fishes: data};
+ 	var templateHtml = $('#fishingTable').html();
+ 	var template = Handlebars.compile(templateHtml);
+ 	var compiledTemplate = template(templateData);
+ 	$('#fishinglist').replaceWith(compiledTemplate);
+ 	// $('#fishing-container').html(compiledTemplate);
 
-	/*Now add sortable table headers*/
-	/*Needs to run in this script or will not read table to make sortable*/
-	$("#fishinglist")
-	.tablesorter({
-		headers: {
-			3: {sorter:false}
-		}
-	});
+ 	/*Now add sortable table headers*/
+ 	/*Needs to run in this script or will not read table to make sortable*/
+ 	$("#fishinglist")
+ 	.tablesorter({
+ 		headers: {
+ 			3: {sorter:false}
+ 		}
+ 	});
 
-	/*Initiate Mouseover Events for Table*/
-	/*Needs to run in this script or will not start hidden*/
-	// $(".fishlink")
-	// 		.mouseout(function() {
-	//     $(this).children(".flink").hide();
-	// })
-	// 		.mouseover(function() {
-	//     $(this).children(".flink").show();
-	// });
-});
+ /*Initiate Mouseover Events for Table*/
+ /*Needs to run in this script or will not start hidden*/
+  $(".fishlink")
+  		.mouseout(function() {
+      $(this).children(".flink").hide();
+  })
+  		.mouseover(function() {
+      $(this).children(".flink").show();
+  });
+ });
 
-/*Build out UnspoiledNodes Table from fishing.json*/
+/*Build out UnspoiledNodes Table from botmin.json*/
 $.getJSON('botmin.json', function(data) {
-	var templateData = {unspoilednodes: data};
-	var templateHtml = $('#NodesList').html();
+	var templateData = {nodes: data};
+	var templateHtml = $('#nodesTable').html();
 	var template = Handlebars.compile(templateHtml);
 	var compiledTemplate = template(templateData);
 	$('#unspoilednodeslist').replaceWith(compiledTemplate);
-	// $('#fishing-container').html(compiledTemplate);
+	$('#fishing-container').html(compiledTemplate);
 
 	/*Now add sortable table headers*/
 	/*Needs to run in this script or will not read table to make sortable*/
@@ -132,22 +132,22 @@ $('#fshlvl').on('change', function(event) {
 });
 
 /*Show or Hide Mining*/
-    $('#Mining').change(function () {
-        if (!this.checked) $('.M, .mslide').fadeOut('slow');
-        else $('.M, .mslide').fadeIn('slow');
-    });
+$('#Mining').change(function () {
+    if (!this.checked) $('.M, .mslide').fadeOut('slow');
+    else $('.M, .mslide').fadeIn('slow');
+});
 
 /*Show or Hide Botany*/
-    $('#Botany').change(function () {
-        if (!this.checked) $('.B, .bslide').fadeOut('slow');
-        else $('.B, .bslide').fadeIn('slow');
-    });
+$('#Botany').change(function () {
+    if (!this.checked) $('.B, .bslide').fadeOut('slow');
+    else $('.B, .bslide').fadeIn('slow');
+});
 
- /*Show or Hide Mooching*/
-    $('#Mooch').change(function () {
-        if (!this.checked) $('.MCH').fadeOut('slow');
-        else $('.MCH').fadeIn('slow');
-    });
+/*Show or Hide Mooching*/
+$('#Mooch').change(function () {
+    if (!this.checked) $('.MCH').fadeOut('slow');
+    else $('.MCH').fadeIn('slow');
+});
 
 
 /* The Following Hides or Shows the Nodes based on Weather*/

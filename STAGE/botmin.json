@@ -3,550 +3,550 @@
     "Type":"Mining",
     "Item":"Darksteel Ore",
     "Slot":"3",
-    "Spawn Time":"1:00 AM",
+    "SpawnTime":"1:00 AM",
     "Zone":"Coerthas Central Highlands",
     "Region":"Dragonhead",
-    "Closest Aetheryte":"Camp Dragonhead",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Mining",
     "Item":"Pumice",
     "Slot":"1",
-    "Spawn Time":"1:00 AM",
+    "SpawnTime":"1:00 AM",
     "Zone":"Eastern La Noscea",
     "Region":"Raincatcher Gully",
-    "Closest Aetheryte":"Wineport",
-    "Min Gathering":"420",
-    "Min Perception for HQ":"420"
+    "ClosestAetheryte":"Wineport",
+    "MinGathering":"420",
+    "MinPerceptionforHQ":"420"
   },
   {
     "Type":"Botany",
     "Item":"Crawler Cocoon",
     "Slot":"4",
-    "Spawn Time":"1:00 AM",
+    "SpawnTime":"1:00 AM",
     "Zone":"East Shroud",
     "Region":"Nine Ivies",
-    "Closest Aetheryte":"The Hawthorne Hut",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"The Hawthorne Hut",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Mining",
     "Item":"Antumbral Rock",
     "Slot":"7",
-    "Spawn Time":"2:00 AM",
+    "SpawnTime":"2:00 AM",
     "Zone":"Eastern Thanalan",
     "Region":"Wellwick Wood",
-    "Closest Aetheryte":"Camp Drybone",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Camp Drybone",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Botany",
     "Item":"Fragrant Log",
     "Slot":"6",
-    "Spawn Time":"2:00 AM",
+    "SpawnTime":"2:00 AM",
     "Zone":"South Shroud",
     "Region":"Upper Paths",
-    "Closest Aetheryte":"Camp Tranquil",
-    "Min Gathering":"353",
-    "Min Perception for HQ":"332"
+    "ClosestAetheryte":"Camp Tranquil",
+    "MinGathering":"353",
+    "MinPerceptionforHQ":"332"
   },
   {
     "Type":"Botany",
     "Item":"Shroud Tea Leaves",
     "Slot":"6",
-    "Spawn Time":"2:00 AM",
+    "SpawnTime":"2:00 AM",
     "Zone":"Central Shroud",
     "Region":"Sorrel Haven ",
-    "Closest Aetheryte":"Bentbranch Meadows",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Bentbranch Meadows",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Ferberite",
     "Slot":"6",
-    "Spawn Time":"3:00 AM",
+    "SpawnTime":"3:00 AM",
     "Zone":"Northern Thanalan",
     "Region":"Raubahn's Push",
-    "Closest Aetheryte":"Ceruleum Processing Plant ",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Ceruleum Processing Plant ",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Raw Topaz",
     "Slot":"7",
-    "Spawn Time":"3:00 AM",
+    "SpawnTime":"3:00 AM",
     "Zone":"Northern Thanalan",
     "Region":"Raubahn's Push",
-    "Closest Aetheryte":"Ceruleum Processing Plant ",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Ceruleum Processing Plant ",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Raw Iolite",
     "Slot":"8",
-    "Spawn Time":"3:00 AM",
+    "SpawnTime":"3:00 AM",
     "Zone":"Northern Thanalan",
     "Region":"Raubahn's Push",
-    "Closest Aetheryte":"Ceruleum Processing Plant ",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Ceruleum Processing Plant ",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Botany",
     "Item":"Scarlet Sap",
     "Slot":"4",
-    "Spawn Time":"3:00 AM",
+    "SpawnTime":"3:00 AM",
     "Zone":"North Shroud",
     "Region":"Alder Springs",
-    "Closest Aetheryte":"Fallgourd Float",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Fallgourd Float",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Native Gold",
     "Slot":"6",
-    "Spawn Time":"4:00 AM",
+    "SpawnTime":"4:00 AM",
     "Zone":"Central Thanalan",
     "Region":"Lost Hope",
-    "Closest Aetheryte":"Black Brush Station",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Black Brush Station",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Raw Diamond",
     "Slot":"8",
-    "Spawn Time":"4:00 AM",
+    "SpawnTime":"4:00 AM",
     "Zone":"Central Thanalan",
     "Region":"Lost Hope",
-    "Closest Aetheryte":"Black Brush Station",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Black Brush Station",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Raw Emerald",
     "Slot":"7",
-    "Spawn Time":"4:00 AM",
+    "SpawnTime":"4:00 AM",
     "Zone":"Central Thanalan",
     "Region":"Lost Hope",
-    "Closest Aetheryte":"Black Brush Station",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Black Brush Station",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Platinum Ore",
     "Slot":"6",
-    "Spawn Time":"4:00 AM",
+    "SpawnTime":"4:00 AM",
     "Zone":"Southern Thanalan",
     "Region":"Broken Water",
-    "Closest Aetheryte":"Little Ala Mhingo",
-    "Min Gathering":"420",
-    "Min Perception for HQ":"420"
+    "ClosestAetheryte":"Little Ala Mhingo",
+    "MinGathering":"420",
+    "MinPerceptionforHQ":"420"
   },
   {
     "Type":"Botany",
     "Item":"Ebony Log",
     "Slot":"6",
-    "Spawn Time":"4:00 AM",
+    "SpawnTime":"4:00 AM",
     "Zone":"Middle La Noscea",
     "Region":"Zephyr Drift",
-    "Closest Aetheryte":"Summerford Farms",
-    "Min Gathering":"420",
-  "Min Perception for HQ":"420"
+    "ClosestAetheryte":"Summerford Farms",
+    "MinGathering":"420",
+  "MinPerceptionforHQ":"420"
   },
   {
     "Type":"Mining",
     "Item":"Gold Sand",
     "Slot":"2",
-    "Spawn Time":"5:00 AM",
+    "SpawnTime":"5:00 AM",
     "Zone":"Eastern Thanalan",
     "Region":"Wellwick Wood",
-    "Closest Aetheryte":"Camp Drybone",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Drybone",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Mining",
     "Item":"Grade 3 Thanalan Topsoil",
     "Slot":"8",
-    "Spawn Time":"5:00 AM",
+    "SpawnTime":"5:00 AM",
     "Zone":"Western Thanalan",
     "Region":"Hammerlea",
-    "Closest Aetheryte":"Horizon",
-    "Min Gathering":"353",
-    "Min Perception for HQ":"332"
+    "ClosestAetheryte":"Horizon",
+    "MinGathering":"353",
+    "MinPerceptionforHQ":"332"
   },
   {
     "Type":"Botany",
     "Item":"Honey Lemon",
     "Slot":"2",
-    "Spawn Time":"5:00 AM",
+    "SpawnTime":"5:00 AM",
     "Zone":"Eastern La Noscea",
     "Region":"Bloodshore",
-    "Closest Aetheryte":"Costa del Sol",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Costa del Sol",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Honey Lemon Seeds",
     "Slot":"1",
-    "Spawn Time":"5:00 AM",
+    "SpawnTime":"5:00 AM",
     "Zone":"Eastern La Noscea",
     "Region":"Bloodshore",
-    "Closest Aetheryte":"Costa del Sol",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Costa del Sol",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Trillium",
     "Slot":"1",
-    "Spawn Time":"5:00 AM",
+    "SpawnTime":"5:00 AM",
     "Zone":"East Shroud",
     "Region":"The Bramble Patch",
-    "Closest Aetheryte":"The Hawthorne Hut",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"The Hawthorne Hut",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Mining",
     "Item":"Umbral Rock",
     "Slot":"7",
-    "Spawn Time":"6:00 AM",
+    "SpawnTime":"6:00 AM",
     "Zone":"South Shroud",
     "Region":"Roots Lake",
-    "Closest Aetheryte":"Camp Tranquil",
-    "Min Gathering":"353",
-    "Min Perception for HQ":"332"
+    "ClosestAetheryte":"Camp Tranquil",
+    "MinGathering":"353",
+    "MinPerceptionforHQ":"332"
   },
   {
     "Type":"Mining",
     "Item":"Grade 3 Shroud Topsoil",
     "Slot":"8",
-    "Spawn Time":"6:00 AM",
+    "SpawnTime":"6:00 AM",
     "Zone":"South Shroud",
     "Region":"Rootslake",
-    "Closest Aetheryte":"Camp Tranquil",
-    "Min Gathering":"353",
-    "Min Perception for HQ":"332"
+    "ClosestAetheryte":"Camp Tranquil",
+    "MinGathering":"353",
+    "MinPerceptionforHQ":"332"
   },
   {
     "Type":"Botany",
     "Item":"Young Cieldalaes Spinach",
     "Slot":"6",
-    "Spawn Time":"6:00 AM",
+    "SpawnTime":"6:00 AM",
     "Zone":"Lower La Noscea",
     "Region":"Cedarwood",
-    "Closest Aetheryte":"Moraby Drydocks",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Moraby Drydocks",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Botany",
     "Item":"Redolent Log",
     "Slot":"6",
-    "Spawn Time":"6:00 AM",
+    "SpawnTime":"6:00 AM",
     "Zone":"Central Shroud",
     "Region":"Greentear",
-    "Closest Aetheryte":"Bentbranch Meadows",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Bentbranch Meadows",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Botany",
     "Item":"Blood Orange",
     "Slot":"2",
-    "Spawn Time":"7:00 AM",
+    "SpawnTime":"7:00 AM",
     "Zone":"Upper La Noscea",
     "Region":"Bronze Lake",
-    "Closest Aetheryte":"Camp Bronze Lake",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Camp Bronze Lake",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Botany",
     "Item":"Bamboo Stick",
     "Slot":"6",
-    "Spawn Time":"7:00 AM",
+    "SpawnTime":"7:00 AM",
     "Zone":"Upper La Noscea",
     "Region":"Bronze Lake",
-    "Closest Aetheryte":"Camp Bronze Lake",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Camp Bronze Lake",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Black Limestone",
     "Slot":"*",
-    "Spawn Time":"8:00 AM",
+    "SpawnTime":"8:00 AM",
     "Zone":"Western La Noscea",
     "Region":"Quarterstone",
-    "Closest Aetheryte":"Swiftperch",
-    "Min Gathering":"450",
-    "Min Perception for HQ":"450"
+    "ClosestAetheryte":"Swiftperch",
+    "MinGathering":"450",
+    "MinPerceptionforHQ":"450"
   },
   {
     "Type":"Botany",
     "Item":"La Noscean Leek",
     "Slot":"6",
-    "Spawn Time":"8:00 AM",
+    "SpawnTime":"8:00 AM",
     "Zone":"Western La Noscea",
     "Region":"Quarterstone",
-    "Closest Aetheryte":"Swiftperch",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Swiftperch",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Botany",
     "Item":"Waterfowl Feather",
     "Slot":"*",
-    "Spawn Time":"8:00 AM",
+    "SpawnTime":"8:00 AM",
     "Zone":"Western La Noscea",
     "Region":"Quarterstone",
-    "Closest Aetheryte":"Swiftperch",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Swiftperch",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Coblyn Larva",
     "Slot":"7",
-    "Spawn Time":"9:00 AM",
+    "SpawnTime":"9:00 AM",
     "Zone":"Eastern Thanalan",
     "Region":"The Burning Wall",
-    "Closest Aetheryte":"Camp Drybone",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Drybone",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Mining",
     "Item":"Gold Ore",
     "Slot":"6",
-    "Spawn Time":"9:00 AM",
+    "SpawnTime":"9:00 AM",
     "Zone":"Eastern Thanalan",
     "Region":"The Burning Wall",
-    "Closest Aetheryte":"Camp Drybone",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Drybone",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Prickly Pineapple",
     "Slot":"4",
-    "Spawn Time":"9:00 AM",
+    "SpawnTime":"9:00 AM",
     "Zone":"Eastern La Noscea",
     "Region":"Bloodshore",
-    "Closest Aetheryte":"Costa del Sol",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Costa del Sol",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Prickly Pineapple Seeds",
     "Slot":"1",
-    "Spawn Time":"9:00 AM",
+    "SpawnTime":"9:00 AM",
     "Zone":"Eastern La Noscea",
     "Region":"Bloodshore",
-    "Closest Aetheryte":"Costa del Sol",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Costa del Sol",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Spruce Log",
     "Slot":"6",
-    "Spawn Time":"9:00 AM",
+    "SpawnTime":"9:00 AM",
     "Zone":"Coerthas Central Highlands",
     "Region":"Providence Point",
-    "Closest Aetheryte":"Camp Dragonhead",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Apricot",
     "Slot":"2",
-    "Spawn Time":"9:00 AM",
+    "SpawnTime":"9:00 AM",
     "Zone":"Middle La Noscea",
     "Region":"The CookPot",
-    "Closest Aetheryte":"Summerford Farms",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Summerford Farms",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Botany",
     "Item":"Cypress Log",
     "Slot":"6",
-    "Spawn Time":"10:00 AM",
+    "SpawnTime":"10:00 AM",
     "Zone":"Central Shroud",
     "Region":"Bentbranch",
-    "Closest Aetheryte":"Bentbranch Meadows",
-    "Min Gathering":"420",
-    "Min Perception for HQ":"420"
+    "ClosestAetheryte":"Bentbranch Meadows",
+    "MinGathering":"420",
+    "MinPerceptionforHQ":"420"
   },
   {
     "Type":"Botany",
     "Item":"Black Truffle",
     "Slot":"7",
-    "Spawn Time":"1:00 PM",
+    "SpawnTime":"1:00 PM",
     "Zone":"Eastern Thanalan",
     "Region":"Drybone",
-    "Closest Aetheryte":"Camp Drybone",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Drybone",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Dzemael Tomato",
     "Slot":"3",
-    "Spawn Time":"1:00 PM",
+    "SpawnTime":"1:00 PM",
     "Zone":"Eastern La Noscea",
     "Region":"Raincatcher Gully",
-    "Closest Aetheryte":"Wineport",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Wineport",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Dzemael Tomato Seeds",
     "Slot":"1",
-    "Spawn Time":"1:00 PM",
+    "SpawnTime":"1:00 PM",
     "Zone":"Eastern La Noscea",
     "Region":"Raincatcher Gully",
-    "Closest Aetheryte":"Wineport",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Wineport",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Vampire Plant",
     "Slot":"8",
-    "Spawn Time":"1:00 PM",
+    "SpawnTime":"1:00 PM",
     "Zone":"Coerthas Central Highlands",
     "Region":"Dragonhead",
-    "Closest Aetheryte":"Camp Dragonhead",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Mining",
     "Item":"Volcanic Rock Salt",
     "Slot":"1",
-    "Spawn Time":"5:00 PM",
+    "SpawnTime":"5:00 PM",
     "Zone":"Eastern La Noscea",
     "Region":"Raincatcher Gully",
-    "Closest Aetheryte":"Wineport",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Wineport",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Mining",
     "Item":"Virgin Basilisk Egg ",
     "Slot":"6",
-    "Spawn Time":"5:00 PM",
+    "SpawnTime":"5:00 PM",
     "Zone":"Northern Thanalan",
     "Region":"Ceruleam Processing Plant",
-    "Closest Aetheryte":"Ceruleam Processing Plant",
-    "Min Gathering":"450",
-    "Min Perception for HQ":"450"
+    "ClosestAetheryte":"Ceruleam Processing Plant",
+    "MinGathering":"450",
+    "MinPerceptionforHQ":"450"
   },
   {
     "Type":"Botany",
     "Item":"Thavnairian Mistletoe",
     "Slot":"2",
-    "Spawn Time":"5:00 PM",
+    "SpawnTime":"5:00 PM",
     "Zone":"Coerthas Central Highlands",
     "Region":"Whitebrim",
-    "Closest Aetheryte":"Camp Dragonhead",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Rosemary",
     "Slot":"1",
-    "Spawn Time":"5:00 PM",
+    "SpawnTime":"5:00 PM",
     "Zone":"East Shroud",
     "Region":"Nine Ivies",
-    "Closest Aetheryte":"The Hawthorne Hut",
-    "Min Gathering":"450",
-    "Min Perception for HQ":"450"
+    "ClosestAetheryte":"The Hawthorne Hut",
+    "MinGathering":"450",
+    "MinPerceptionforHQ":"450"
   },
   {
     "Type":"Mining",
     "Item":"Raw Ruby",
     "Slot":"7",
-    "Spawn Time":"6:00 PM",
+    "SpawnTime":"6:00 PM",
     "Zone":"Lower La Noscea",
     "Region":"Moraby Bay",
-    "Closest Aetheryte":"Moraby Drydocks",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Moraby Drydocks",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Raw Sapphire",
     "Slot":"8",
-    "Spawn Time":"6:00 PM",
+    "SpawnTime":"6:00 PM",
     "Zone":"Lower La Noscea",
     "Region":"Moraby Bay",
-    "Closest Aetheryte":"Moraby Drydocks",
-    "Min Gathering":"408",
-    "Min Perception for HQ":"389"
+    "ClosestAetheryte":"Moraby Drydocks",
+    "MinGathering":"408",
+    "MinPerceptionforHQ":"389"
   },
   {
     "Type":"Mining",
     "Item":"Grade 3 La Noscean Topsoil",
     "Slot":"8",
-    "Spawn Time":"7:00 PM",
+    "SpawnTime":"7:00 PM",
     "Zone":"Middle La Noscea",
     "Region":"Zephyr Drift",
-    "Closest Aetheryte":"Summerford Farms",
-    "Min Gathering":"353",
-    "Min Perception for HQ":"332"
+    "ClosestAetheryte":"Summerford Farms",
+    "MinGathering":"353",
+    "MinPerceptionforHQ":"332"
   },
   {
     "Type":"Mining",
     "Item":"Astral Rock",
     "Slot":"7",
-    "Spawn Time":"9:00 PM",
+    "SpawnTime":"9:00 PM",
     "Zone":"Coerthas Central Highlands",
     "Region":"Dragonhead",
-    "Closest Aetheryte":"Camp Dragonhead",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Kidragora",
     "Slot":"7",
-    "Spawn Time":"9:00 PM",
+    "SpawnTime":"9:00 PM",
     "Zone":"East Shroud",
     "Region":"The Honey Yard",
-    "Closest Aetheryte":"The Hawthorne Hut",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"The Hawthorne Hut",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   },
   {
     "Type":"Botany",
     "Item":"Trillium Bulb",
     "Slot":"8",
-    "Spawn Time":"9:00 PM",
+    "SpawnTime":"9:00 PM",
     "Zone":"East Shroud",
     "Region":"The Honey Yard",
-    "Closest Aetheryte":"The Hawthorne Hut",
-    "Min Gathering":"",
-    "Min Perception for HQ":""
+    "ClosestAetheryte":"The Hawthorne Hut",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   }
 ]
