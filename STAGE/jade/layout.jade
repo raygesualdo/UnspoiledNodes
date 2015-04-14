@@ -50,30 +50,30 @@ html
     script(type='text/javascript', src='functions.js')
     script#nodesTable(type='text/x-handlebars-template').
       <table id="minebottable" class="maintable sortable">
-      <thead bgcolor="#D2D2D2">
-      <th width="97" height="25px" scope="col">Type</th>
-      <th width="242" scope="col">Item</th>
-      <th width="84" scope="col">Slot</th>
-      <th width="220" scope="col">Spawn Time</th>
-      <th width="326" scope="col">Zone</th>
-      <th width="300" scope="col">Region</th>
-      <th width="300" scope="col">Closest Aetheryte</th>
-      <th width="264" scope="col">Min Gathering</th>
-      <th width="404" scope="col">Min Perception for HQ</th>
-      </thead>
-      <tbody>
-      {{#each nodes}}
-      <tr>
-      <td>{{Type}}</td>
-      <td>{{Item}}</td>
-      <td>{{Slot}}</td>
-      <td>{{SpawnTime}}</td>
-      <td>{{Zone}}</td>
-      <td>{{Region}}</td>
-      <td>{{ClosestAetheryte}}</td>
-      <td>{{MinGathering}}</td>
-      <td>{{MinPerceptionforHQ}}</td>
-      </tr>
-      {{/each}}
-      </tbody>
+        <thead bgcolor="#D2D2D2">
+          <th width="97" height="25px" scope="col">Type</th>
+          <th width="242" scope="col">Item</th>
+          <th width="84" scope="col">Slot</th>
+          <th width="220" scope="col">Spawn Time</th>
+          <th width="326" scope="col">Zone</th>
+          <th width="300" scope="col">Region</th>
+          <th width="300" scope="col">Closest Aetheryte</th>
+          <th width="264" scope="col">Min Gathering</th>
+          <th width="404" scope="col">Min Perception for HQ</th>
+        </thead>
+        <tbody>
+          {{#each nodes}}
+          <tr>
+            <td>{{Type}}</td>
+            <td>{{Item}}</td>
+            <td>{{Slot}}</td>
+            <td>{{SpawnTime}}</td>
+            <td>{{Zone}}</td>
+            <td>{{Region}}</td>
+            <td>{{ClosestAetheryte}}</td>
+            <td>{{MinGathering}}</td>
+            <td>{{MinPerceptionforHQ}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
       </table>
